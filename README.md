@@ -30,16 +30,18 @@ Workspaces for administering local computers (primarily Linux desktops, but adap
 
 #### General Purpose Local Admin
 
-- **[Claude Linux Desktop Manager](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager)** ![Desktop](https://img.shields.io/badge/Scope-Desktop-green.svg) - Desktop environment management (GUI WIP)
-  - Companion: [Slash Commands](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands)
-  - Companion: [CLAUDE.md Seeder](https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder)
-- **[Home Folder Claude MD](https://github.com/danielrosehill/Home-Folder-Claude-MD)** ![Home](https://img.shields.io/badge/Scope-Home-green.svg) - Home directory administration
-- **[Claude Code Repo Managers ClaudeMD](https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD)** ![Repos](https://img.shields.io/badge/Scope-Repositories-green.svg) - Repository base level management
+| Repository | Scope | Description | Companion Resources |
+|------------|-------|-------------|-------------------|
+| [Claude Linux Desktop Manager](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) | ![Desktop](https://img.shields.io/badge/Scope-Desktop-green.svg) | Desktop environment management (GUI WIP) | [Slash Commands](https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands)<br>[CLAUDE.md Seeder](https://github.com/danielrosehill/Linux-Desktop-ClaudeMD-Seeder) |
+| [Home Folder Claude MD](https://github.com/danielrosehill/Home-Folder-Claude-MD) | ![Home](https://img.shields.io/badge/Scope-Home-green.svg) | Home directory administration | - |
+| [Claude Code Repo Managers ClaudeMD](https://github.com/danielrosehill/Claude-Code-Repo-Managers-ClaudeMD) | ![Repos](https://img.shields.io/badge/Scope-Repositories-green.svg) | Repository base level management | - |
 
 #### Task-Specific Local Admin
 
-- **[Claude Conda Manager](https://github.com/danielrosehill/Claude-Conda-Manager)** ![Conda](https://img.shields.io/badge/Task-Conda-yellow.svg) - Conda environment management
-- **[Claude Code Security Auditor](https://github.com/danielrosehill/Claude-Code-Security-Auditor)** ![Security](https://img.shields.io/badge/Task-Security-red.svg) - Security auditing workspace
+| Repository | Task Type | Description |
+|------------|-----------|-------------|
+| [Claude Conda Manager](https://github.com/danielrosehill/Claude-Conda-Manager) | ![Conda](https://img.shields.io/badge/Task-Conda-yellow.svg) | Conda environment management |
+| [Claude Code Security Auditor](https://github.com/danielrosehill/Claude-Code-Security-Auditor) | ![Security](https://img.shields.io/badge/Task-Security-red.svg) | Security auditing workspace |
 
 ### 2. Remote System Administration
 
@@ -47,8 +49,10 @@ Workspaces for administering local computers (primarily Linux desktops, but adap
 
 Workspaces for administering devices on local networks or remote systems over SSH.
 
-- **[Claude Code Remote Machine Admin Space](https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space)** ![SSH](https://img.shields.io/badge/Protocol-SSH-lightblue.svg) - Individual remote system administration
-- **[Claude Code LAN Manager](https://github.com/danielrosehill/Claude-Code-LAN-Manager)** ![LAN](https://img.shields.io/badge/Scope-LAN-lightblue.svg) - Homelab and collective remote management
+| Repository | Protocol/Scope | Description |
+|------------|----------------|-------------|
+| [Claude Code Remote Machine Admin Space](https://github.com/danielrosehill/Claude-Code-Remote-Machine-Admin-Space) | ![SSH](https://img.shields.io/badge/Protocol-SSH-lightblue.svg) | Individual remote system administration |
+| [Claude Code LAN Manager](https://github.com/danielrosehill/Claude-Code-LAN-Manager) | ![LAN](https://img.shields.io/badge/Scope-LAN-lightblue.svg) | Homelab and collective remote management |
 
 ## Use Cases
 
@@ -69,34 +73,46 @@ The Claude Spaces model is highly adaptable to various specialized domains beyon
 
 ### Media Processing & Creative Workflows
 
-- **Claude Video Processing Space** ![Video](https://img.shields.io/badge/Media-Video-ff69b4.svg) - Video editing, transcoding, and manipulation workflows using ffmpeg, MLT, and other CLI tools
-- **Claude Audio Processing Space** ![Audio](https://img.shields.io/badge/Media-Audio-9cf.svg) - Audio engineering, podcast production, music processing with Sox, ffmpeg, and audio libraries
-- **Claude Image Workspace** ![Images](https://img.shields.io/badge/Media-Images-brightgreen.svg) - Batch image processing, optimization, format conversion, and computer vision tasks
+| Space Name | Category | Description |
+|------------|----------|-------------|
+| Claude Video Processing Space | ![Video](https://img.shields.io/badge/Media-Video-ff69b4.svg) | Video editing, transcoding, and manipulation workflows using ffmpeg, MLT, and other CLI tools |
+| Claude Audio Processing Space | ![Audio](https://img.shields.io/badge/Media-Audio-9cf.svg) | Audio engineering, podcast production, music processing with Sox, ffmpeg, and audio libraries |
+| Claude Image Workspace | ![Images](https://img.shields.io/badge/Media-Images-brightgreen.svg) | Batch image processing, optimization, format conversion, and computer vision tasks |
 
 ### Data & Analytics
 
-- **Claude Data Pipeline Space** ![Data](https://img.shields.io/badge/Domain-Data-informational.svg) - ETL workflows, data transformation, and analytics automation
-- **Claude Database Admin Space** ![Database](https://img.shields.io/badge/Domain-Database-critical.svg) - Database maintenance, backup orchestration, query optimization, and schema management
+| Space Name | Category | Description |
+|------------|----------|-------------|
+| Claude Data Pipeline Space | ![Data](https://img.shields.io/badge/Domain-Data-informational.svg) | ETL workflows, data transformation, and analytics automation |
+| Claude Database Admin Space | ![Database](https://img.shields.io/badge/Domain-Database-critical.svg) | Database maintenance, backup orchestration, query optimization, and schema management |
 
 ### Content & Documentation
 
-- **Claude Documentation Generator Space** ![Docs](https://img.shields.io/badge/Content-Documentation-blue.svg) - Technical writing, API documentation generation, and knowledge base management
-- **Claude Content Publishing Space** ![Publishing](https://img.shields.io/badge/Content-Publishing-blueviolet.svg) - Blog management, static site generation, content pipeline automation
+| Space Name | Category | Description |
+|------------|----------|-------------|
+| Claude Documentation Generator Space | ![Docs](https://img.shields.io/badge/Content-Documentation-blue.svg) | Technical writing, API documentation generation, and knowledge base management |
+| Claude Content Publishing Space | ![Publishing](https://img.shields.io/badge/Content-Publishing-blueviolet.svg) | Blog management, static site generation, content pipeline automation |
 
 ### Development Operations
 
-- **Claude Container Orchestration Space** ![Containers](https://img.shields.io/badge/DevOps-Containers-326ce5.svg) - Docker/Podman management, container lifecycle, and registry operations
-- **Claude CI/CD Pipeline Space** ![Pipeline](https://img.shields.io/badge/DevOps-CI%2FCD-success.svg) - Build automation, testing workflows, and deployment orchestration
-- **Claude Backup & Recovery Space** ![Backup](https://img.shields.io/badge/Infrastructure-Backup-orange.svg) - Backup strategy management, disaster recovery planning, and restoration workflows
+| Space Name | Category | Description |
+|------------|----------|-------------|
+| Claude Container Orchestration Space | ![Containers](https://img.shields.io/badge/DevOps-Containers-326ce5.svg) | Docker/Podman management, container lifecycle, and registry operations |
+| Claude CI/CD Pipeline Space | ![Pipeline](https://img.shields.io/badge/DevOps-CI%2FCD-success.svg) | Build automation, testing workflows, and deployment orchestration |
+| Claude Backup & Recovery Space | ![Backup](https://img.shields.io/badge/Infrastructure-Backup-orange.svg) | Backup strategy management, disaster recovery planning, and restoration workflows |
 
 ### Research & Scientific Computing
 
-- **Claude ML Experiment Space** ![ML](https://img.shields.io/badge/Research-ML-red.svg) - Machine learning experiment tracking, model versioning, and hyperparameter management
-- **Claude Scientific Computing Space** ![Science](https://img.shields.io/badge/Research-Scientific-violet.svg) - HPC job management, computational workflows, and research data organization
+| Space Name | Category | Description |
+|------------|----------|-------------|
+| Claude ML Experiment Space | ![ML](https://img.shields.io/badge/Research-ML-red.svg) | Machine learning experiment tracking, model versioning, and hyperparameter management |
+| Claude Scientific Computing Space | ![Science](https://img.shields.io/badge/Research-Scientific-violet.svg) | HPC job management, computational workflows, and research data organization |
 
 ### Monitoring & Observability
 
-- **Claude Monitoring Space** ![Monitoring](https://img.shields.io/badge/Operations-Monitoring-green.svg) - Log aggregation, metrics collection, alerting configuration, and observability dashboards
+| Space Name | Category | Description |
+|------------|----------|-------------|
+| Claude Monitoring Space | ![Monitoring](https://img.shields.io/badge/Operations-Monitoring-green.svg) | Log aggregation, metrics collection, alerting configuration, and observability dashboards |
 
 The possibilities are limitless - any domain requiring systematic, context-aware management of tools, workflows, and infrastructure can benefit from a dedicated Claude Space.
 
