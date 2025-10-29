@@ -1,5 +1,9 @@
 # Claude Spaces Model
 
+[![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-8A2BE2?logo=anthropic)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
+[![Claude Code Projects](https://img.shields.io/badge/Index-Claude%20Code%20Projects-blue?logo=github)](https://github.com/danielrosehill/Claude-Code-Repos-Index)
+[![Master Index](https://img.shields.io/badge/Index-GitHub%20Master-black?logo=github)](https://github.com/danielrosehill/Github-Master-Index)
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)
